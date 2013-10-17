@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <title>
+    Kulturhuset i Xstad
+  </title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<div id="wrap">
+<!-- Logo bar -->
+<div id="logo-top">
+  <div id="logo-inner">
+    <img src="images/logo.jpg" alt="logo"></img>
+  </div>
+</div><!-- logo-top -->
+
+<!-- Menu -->
+<div id="menu-top">
+  <ul>
+    <li> <a href="index.html">          startsida </a> </li>
+    <li> <a href="om_kulturhuset.html"> om kulturhuset </a> </li>
+    <li> <a href="nyhetsarkiv.html">    nyhetsarkiv </a> </li>
+    <li> <a href="projekt.html">        projekt </a> </li>
+    <li> <a href="events.html">         events </a> </li>
+    <li> <a href="forum.html">          forum </a> </li>
+    <li> <a href="kontakt.html">        kontakt </a> </li>
+  </ul>
+</div><!-- menu-top -->
+
+<div id="div-main">
+  <h1> Kontakt </h1>
+  <p>
+    Du kan kontakta Kulturhuset på flera sätt. Antingen besöker du oss, ringer, skickar mail eller använder använder kontaktformuläret nedan. 
+  </p>
+  
+  <h3>Öppettider</h3>
+  <p>
+    Vardagar: 10-22 
+    Helger:   10-24 
+  </p>
+  
+  <h3>Adress</h3>
+  <p>  
+    Kulturhuset <br>
+    Kulturvägen 1 <br>
+    123 45 Xstad <br>
+  </p>
+  
+  <h3>Telefon</h3>
+  <p>
+    01 - 01 02 03 <br>
+  </p>
+  
+  <h3>E-mail</h3>
+  <p>
+    <a href="mailto:kontakt@kulturxstad.se">kontakt@kulturxstad.se</a>
+  </p>
+
+  <h3>Kontaktformulär</h3>
+  <p>
+    Fyll i kontaktformuläret nedan så återkommer vi till dig så snart som möjligt.
+  </p> 
+  <p>
+  <form method="post" name="contactForm" id="contactForm" action="contact-form-handler.php">
+    Ditt namn: <br>
+    <input type="text" name="name" id="name" size="40"> <br>
+    Din email-adress: <br>
+    <input type="text" name="email" id="email" size="40"> <br>
+    Meddelande till oss: <br>
+    <textarea name="message" id="message" rows="10" cols="56"></textarea> <br>
+    <input type="submit" value="Skicka">
+  </form>
+  </p>
+  <p>
+    <span id="contactFormErrorMessage"></span>
+  </p>
+</div><!-- /div-main -->
+
+<!-- Footer -->
+<div id="footer">
+  <div id="footer-inner-wrap">
+    <!-- Footer text -->
+    <div id="footer-text">
+      <p> <pre> 
+         Copyright &copy; 2013 Kulturshuset Xstad                           
+         Hemsida av Gustaf Hanson                         
+         Webmaster: <a href="mailto:web@kulturxstad.se">webmaster@kulturxstad.se</a>
+      </p>
+    </div>
+    <!-- Social media -->
+    <div id="div-social">
+      <!-- social media image links -->
+      <a href="http://www.twitter.com/" target="blank">
+        <img class="img-social" src="images/twitter.jpg"  alt="twitter"></img>
+      </a>
+      <a href="http://www.facebook.com" target="blank">
+        <img class="img-social" src="images/facebook.jpg" alt="facebook"></img>
+      </a>
+    </div> 
+  </div> <!-- /footer-inner-wrap -->
+</div><!-- /footer -->
+
+<!-- load scipts -->
+<script src="script.js"></script>
+</body>
+</html>

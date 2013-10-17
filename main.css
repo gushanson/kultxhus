@@ -1,0 +1,180 @@
+/* main.css 
+   by Gustaf Hanson
+*/
+
+/* reset margins and padding */
+html, body, ol, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+p, form {
+	line-height: 1.5;
+	font-size: 105%;  color: black; 
+  font-family: Times, serif;
+  margin: .4ex 16pt;
+}
+
+a {
+  color: #004c99;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: tahoma, sans-serif;
+  margin: .4ex 16pt;
+}
+
+h1 {
+  color: #036;
+}
+
+h2 {
+	color: #004c99;
+}
+
+h3 {
+	color: #004c99;
+	margin: 1ex 16pt;
+}
+
+hr { 
+  border: 0; 
+  height: 1px; 
+  width: 800px;
+  margin-top: 50px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+.img-social{
+	padding-right:  5px;
+	padding-top:    5px;
+	padding-bottom: 5px;
+	padding-left:   0;
+	float:          right;
+}
+
+.spacedHeader {
+	padding-top:   30px;
+	margin-bottom: 0;
+}
+
+.newsHeading {
+  margin-bottom: 2pt;
+  padding-top:   10pt;
+  font-family:   Times, serif;
+}
+
+.newsPicture {
+  float:          left;
+  margin-left:    16pt;
+  margin-right:   5px;
+  padding-bottom: 3px;
+}
+
+.news {
+  margin:           0;
+  overflow:         auto;
+}
+
+.newsText {
+	margin: 0;
+}
+
+#logo-top {
+	width:            100%;
+	height:           60px;
+	background-color: #002142;
+	margin:           0;
+	padding:          0;
+}
+
+#logo-inner {
+	width:   910px;
+	height:  60px;
+	margin:  0 auto;
+	padding: 0;
+}
+
+#menu-top {
+	height:           60px;
+	width:            910px;
+	background-color: #fff;
+	padding:          0;
+	margin: 			    0 auto;
+}
+
+#menu-top ul {
+	display:         block;
+	list-style-type: none;
+	padding:         0;
+		
+}
+
+#menu-top ul li {
+	margin:  0;
+	padding: 0;
+}
+
+#menu-top ul li a {
+  display:     block;
+	padding:     20px;
+	font-family: tahoma, sans-serif;
+	font-size:   20px;
+	float:       left;
+}
+
+#div-main {
+	width:            910px;
+	background-color: #fff;
+	margin: 			0 auto;
+	padding-bottom:   60px;
+	overflow:         auto;
+}
+
+#news2 p {
+	margin:      .2ex;
+	margin-left: 17pt;
+}
+
+#news2 img {
+	float: right;
+}
+
+#footer {
+	position:         fixed;
+  bottom:           0px;
+  height:           60px;
+	width:            100%;
+	margin:           0 auto;
+	background-color: #002142;
+}
+
+#footer-inner-wrap {
+	width:  910px;
+    margin: 0 auto;
+}
+
+#div-social {
+	width: 110px;
+	float: right;
+}
+
+#footerText {
+	color:       #fff;
+	font-size:   9pt;
+	color:       white; 
+  font-family: Times, serif;
+  margin-top:      -12px;
+  padding:     0;
+}
